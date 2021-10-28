@@ -32,6 +32,11 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'What are the instructions for someone to run a test of your project?',
+        name: 'test',
+    },
+    {
+        type: 'input',
         message: 'Please list other contributors here.',
         name: 'contributors',
     },
