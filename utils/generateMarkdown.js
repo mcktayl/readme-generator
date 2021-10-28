@@ -1,4 +1,4 @@
-const licenseArray = ['Apache License 2.0', 'MIT'];
+const licenseArray = ['Apache License 2.0', 'MIT', 'Mozilla Public License 2.0'];
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -7,6 +7,8 @@ function renderLicenseBadge(license) {
     return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
   } else if (license == licenseArray[1]) {
     return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+  } else if (license == licenseArray[2]) {
+    return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
   }
 }
 
@@ -17,6 +19,8 @@ function renderLicenseLink(license) {
     return `[${licenseArray[0]}](https://opensource.org/licenses/Apache-2.0)`
   } else if (license == licenseArray[1]) {
     return `[${licenseArray[1]}](https://opensource.org/licenses/MIT)`
+  } else if (license == licenseArray[2]) {
+    return `[${licenseArray[2]}](https://opensource.org/licenses/MPL-2.0)`
   }
 }
 
@@ -27,6 +31,8 @@ function renderLicenseSection(license) {
     return `Read more about ${licenseArray[0]} below:`
   } else if (license == licenseArray[1]) {
     return `Read more about ${licenseArray[1]} below:`
+  } else if (license == licenseArray[2]) {
+    return `Read more about ${licenseArray[2]} below:`
   }
 }
 

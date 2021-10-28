@@ -63,7 +63,7 @@ const questions = [
     {
         type: 'list',
         message: 'Which license would you like to use?',
-        choices: ['Apache License 2.0', 'MIT'],
+        choices: ['Apache License 2.0', 'MIT', 'Mozilla Public License 2.0'],
         name: 'license',
     },
 ];
