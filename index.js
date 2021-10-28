@@ -30,6 +30,12 @@ const questions = [
         message: 'What are the instructions and some examples of use for your project?',
         name: 'usage',
     },
+    {
+        type: 'list',
+        message: 'Which license would you like to use?',
+        choices: ['Apache License 2.0', 'MIT'],
+        name: 'license',
+    },
 ];
 
 // TODO: Create a function to write README file
