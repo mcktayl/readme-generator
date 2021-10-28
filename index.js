@@ -37,6 +37,21 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'username',
+    },
+    {
+        type: 'input',
+        message: 'What is the link to your GitHub profile?',
+        name: 'profile',
+    },
+    {
+        type: 'input',
+        message: 'What is your preferred email address?',
+        name: 'email',
+    },
+    {
+        type: 'input',
         message: 'Please list other contributors here.',
         name: 'contributors',
     },

@@ -43,6 +43,7 @@ function generateMarkdown(data) {
   - [Installation](#installation)
   - [Usage](#usage)
   - [Test](#test)
+  - [Questions](#questions)
   - [Credits](#credits)
   - [License](#license)
 
@@ -54,6 +55,11 @@ function generateMarkdown(data) {
 
   ## Test
   ${data.test}
+
+  ## Questions
+  Please feel free to contact me with any questions about this application.
+  GitHub: [${data.username}](${data.profile})
+  email: ${data.email}
 
   ## Credits
   ${data.contributors}
