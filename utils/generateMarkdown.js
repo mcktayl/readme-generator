@@ -36,11 +36,13 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   ## Description
+  My project can be viewed [here](${data.link})
   ${data.description}
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Credits](#credits)
   - [License](#license)
 
   ## Installation
@@ -48,6 +50,10 @@ function generateMarkdown(data) {
 
   ## Usage
   ${data.usage}
+
+  ## Credits
+  ${data.contributors}
+  ${data.credits}
 
   ## License
   ${renderLicenseSection(data.license)}

@@ -31,6 +31,16 @@ const questions = [
         name: 'usage',
     },
     {
+        type: 'input',
+        message: 'Please list other contributors here.',
+        name: 'contributors',
+    },
+    {
+        type: 'input',
+        message: 'Please list credits and sources used here.',
+        name: 'credits',
+    },
+    {
         type: 'list',
         message: 'Which license would you like to use?',
         choices: ['Apache License 2.0', 'MIT'],
