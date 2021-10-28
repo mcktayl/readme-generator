@@ -21,9 +21,14 @@ This application also requires NPM Inquirer, which can be installed by running "
 
 ## Usage
 
+A video demonstration can be found [here]().
+
 The user runs 'node index.js' in their command terminal, which then prompts them with a series of questions about their project.
+![screenshot-01](assets/images/screenshot-01)
 
 Once the user answers all the questions, the README is generated using their input data.
+![screenshot-02](assets/images/screenshot-02)
+![screenshot-03](assets/images/screenshot-03)
 
 ## Credits
 
